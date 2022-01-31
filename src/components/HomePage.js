@@ -1,10 +1,10 @@
 import React from "react";
-import 
+import Banner from '../asset/Banner.jpeg';
 
 const HomePage =()=>{
     return (
         <main>
-            <img src= alt="COVID19" />
+            <img src={Banner} alt="COVID19" />
         </main>
     );
 };
