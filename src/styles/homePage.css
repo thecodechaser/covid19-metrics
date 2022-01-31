@@ -1,1 +1,20 @@
 /* styles-for-homepage */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.banner-div {
+    display: flex;
+    background-color: rgb(25, 54, 150);
+    justify-content: space-between
+}
+
+.img-banner {
+    width: 50vw;
+    height: 30vh;
+}
+
+.banner-h2 {
+    color: #fff;
+    font-family: 'Gill Sans', sans-serif;
+    margin-right: 20px;
+    font-weight: 100;
+}
