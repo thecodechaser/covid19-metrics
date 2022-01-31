@@ -14,6 +14,12 @@ const fetchData = (payload) => ({
 
 // APIs-functions
 
+export const fetchRocketApi = () => async (dispatch) => {
+  const returnValue = await Axios.get('https://api.spacexdata.com/v3/rockets');
+
+  dispatch(fetchData(rockets));
+};
+
 
 // initial-state
 const initialState = [];
