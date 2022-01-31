@@ -4,7 +4,7 @@
 .header-top {
   display: flex;
   justify-content: center;
-  background-color: #26439f;
+  background-color: rgb(38,67,159);
   color: #fff;
 }
 
