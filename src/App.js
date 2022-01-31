@@ -1,4 +1,6 @@
 import Header from "./components/Header";
+import './styles/header.css';
+import './styles/app.css';
 
 function App() {
   const heading = "COVID19 statestics";
