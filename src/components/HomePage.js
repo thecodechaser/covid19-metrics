@@ -28,9 +28,9 @@ const HomePage = () => {
         <h4 className="search-bar-h4">STATS BY COUNTRY</h4>
       </div>
       <div>
-      {
+        {
           covidData.map((data) => (
-            <Categories key={uuidv4()} data={data}/>
+            <Categories key={uuidv4()} data={data} />
           ))
       }
       </div>
