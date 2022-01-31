@@ -1,8 +1,11 @@
 import React from "react";
+import 
 
 const HomePage =()=>{
     return (
-        <div>Hello</div>
+        <main>
+            <img src= alt="COVID19" />
+        </main>
     );
 };
 
