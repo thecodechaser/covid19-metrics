@@ -27,7 +27,7 @@ const HomePage = () => {
         <input type="text" placeholder="Search" className="search-bar-input" />
         <h4 className="search-bar-h4">STATS BY COUNTRY</h4>
       </div>
-      <div>
+      <div className="categories">
         {
           covidData.map((data) => (
             <Categories key={uuidv4()} data={data} />
