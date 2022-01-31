@@ -6,7 +6,7 @@ import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 import Categories from './homePageComponents/Categories';
 
 const HomePage = () => {
-    const covidData = useSelector((state) => state.covid19Data);
+  const covidData = useSelector((state) => state.covid19Data);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchDataApi());
@@ -27,11 +27,13 @@ const HomePage = () => {
         <input type="text" placeholder="Search" className="search-bar-input" />
         <h4 className="search-bar-h4">STATS BY COUNTRY</h4>
       </div>
+      <div>
       {
-          covidData.map((item) =>(
-              <Categories key={uuidv4()}/>
+          covidData.map((data) => (
+            <Categories key={uuidv4()} data={data}/>
           ))
       }
+      </div>
     </main>
   );
 };
