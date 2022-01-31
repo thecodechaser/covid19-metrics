@@ -9,7 +9,7 @@
 
 .img-banner {
   width: 50vw;
-  height: 30vh;
+  height: 35vh;
 }
 
 .banner-h2 {
@@ -30,5 +30,11 @@
 
 .search-bar-h3,
 .search-bar-h4 {
-    font-weight: 100;
+    font-weight: 600;
+}
+
+.search-bar-input {
+    width: 450px;
+    padding: 10px;
+    border-radius: 15px;
 }
