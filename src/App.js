@@ -1,7 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
+  const heading = "COVID19 statestics";
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header heading={heading}/>
     </div>
   );
 }
