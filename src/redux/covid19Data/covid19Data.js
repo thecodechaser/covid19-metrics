@@ -16,8 +16,8 @@ const fetchData = (payload) => ({
 
 export const fetchDataApi = () => async (dispatch) => {
   const returnValue = await Axios.get(baseURL);
-
-  dispatch(fetchData(rockets));
+  console.log(returnValue);
+  dispatch(fetchData(returnValue));
 };
 
 // initial-state
