@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Banner from '../asset/Banner.jpeg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 
 const HomePage = () => {
+    const covidData = useSelector((state) => state.covid19Data);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchDataApi());
   }, [dispatch]);
-
+  
   return (
     <main>
       <div className="banner-div">
