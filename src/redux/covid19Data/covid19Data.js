@@ -1,5 +1,6 @@
-import Axios from "axios";
+import Axios from 'axios';
 
+const baseURL = 'https://api.apify.com/v2/key-value-stores/tVaYRsPHLjNdNBu7S/records/LATEST?disableRedirect=true';
 
 // constants
 const FETCH_DATA = 'covidMetrics/covid19Data/FETCH_DATA';
@@ -11,15 +12,13 @@ const fetchData = (payload) => ({
   payload,
 });
 
-
 // APIs-functions
 
-export const fetchRocketApi = () => async (dispatch) => {
-  const returnValue = await Axios.get('https://api.spacexdata.com/v3/rockets');
+export const fetchDataApi = () => async (dispatch) => {
+  const returnValue = await Axios.get(baseURL);
 
   dispatch(fetchData(rockets));
 };
-
 
 // initial-state
 const initialState = [];
