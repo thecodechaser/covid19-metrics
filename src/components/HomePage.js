@@ -12,9 +12,9 @@ const HomePage = () => (
       </h2>
     </div>
     <div className="search-bar">
-        <h3 className="search-bar-h3">Search by country name</h3>
-        <input type="text" placeholder="Search" className="search-bar-input"/>
-        <h4 className="search-bar-h4">STATS BY COUNTRY</h4>
+      <h3 className="search-bar-h3">Search by country name</h3>
+      <input type="text" placeholder="Search" className="search-bar-input" />
+      <h4 className="search-bar-h4">STATS BY COUNTRY</h4>
     </div>
   </main>
 );

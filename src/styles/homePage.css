@@ -20,21 +20,21 @@
 }
 
 .search-bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(38,67,159);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(38, 67, 159);
   color: #fff;
   font-family: 'Gill Sans', sans-serif;
 }
 
 .search-bar-h3,
 .search-bar-h4 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .search-bar-input {
-    width: 450px;
-    padding: 10px;
-    border-radius: 15px;
+  width: 450px;
+  padding: 10px;
+  border-radius: 15px;
 }
