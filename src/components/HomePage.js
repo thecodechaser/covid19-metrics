@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import Banner from '../asset/Banner.jpeg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
+import Categories from './homePageComponents/Categories';
 
 const HomePage = () => {
     const covidData = useSelector((state) => state.covid19Data);
@@ -9,7 +11,7 @@ const HomePage = () => {
   useEffect(() => {
     dispatch(fetchDataApi());
   }, [dispatch]);
-  
+
   return (
     <main>
       <div className="banner-div">
@@ -25,6 +27,11 @@ const HomePage = () => {
         <input type="text" placeholder="Search" className="search-bar-input" />
         <h4 className="search-bar-h4">STATS BY COUNTRY</h4>
       </div>
+      {
+          covidData.map((item) =>(
+              <Categories key={uuidv4()}/>
+          ))
+      }
     </main>
   );
 };
