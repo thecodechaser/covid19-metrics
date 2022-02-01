@@ -6,11 +6,11 @@ const DetailsPage = () => {
   const data = useLocation();
   const countryName = data.pathname.substring(1);
   return (
-      <>
-      <Header heading={countryName}/>
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Header heading={countryName} />
+      <div>
+        <h1>Hello</h1>
+      </div>
     </>
   );
 };
