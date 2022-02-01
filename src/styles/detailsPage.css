@@ -1,1 +1,9 @@
 /* style-for-details-page */
+
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 20px;
+}
