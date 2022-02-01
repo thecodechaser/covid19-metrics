@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-const baseURL = 'https://api.apify.com/v2/key-value-stores/tVaYRsPHLjNdNBu7S/records/LATEST?disableRedirect=true';
+const baseURL = 'https://api.covid19api.com/summary';
 
 // constants
 const FETCH_DATA = 'covidMetrics/covid19Data/FETCH_DATA';
@@ -16,8 +16,9 @@ const fetchData = (payload) => ({
 
 export const fetchDataApi = () => async (dispatch) => {
   const returnValue = await Axios.get(baseURL);
-  const { data } = returnValue;
-  dispatch(fetchData(data));
+  const { data: { Countries } } = returnValue;
+  // console.log(Countries.length)
+  dispatch(fetchData(Countries));
 };
 
 // initial-state
