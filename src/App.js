@@ -14,7 +14,7 @@ function App() {
         element={(<HomePage />)}
       />
       <Route
-        path="/country:name"
+        path="/:Country"
         element={(<DetailsPage />)}
       />
     </Routes>

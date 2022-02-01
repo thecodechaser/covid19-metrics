@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { v4 as uuidv4 } from 'uuid';
 import Banner from '../asset/Banner.jpeg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 import Categories from './homePageComponents/Categories';
@@ -34,7 +33,7 @@ const HomePage = () => {
         <div className="categories">
           {
           covidData.map((data) => (
-            <Categories key={uuidv4()} data={data} />
+            <Categories key={data.ID} data={data} />
           ))
       }
         </div>

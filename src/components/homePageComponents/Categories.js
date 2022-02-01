@@ -5,21 +5,20 @@ import { NavLink } from 'react-router-dom';
 
 const Categories = (props) => {
   const { data: { Country, TotalConfirmed } } = props;
-  const click = () => {
-    console.log('hello');
-  };
   return (
-    
-    <div className="category-top" onClick={click} role="button" onKeyPress={click} tabIndex="0">
+
+    <div className="category-top">
       <h1 className="category-country">{Country}</h1>
       <h1 className="category-infected">{TotalConfirmed}</h1>
       <NavLink to={{
-          pathname: `/country${Country}`,
-          Country,
-          
-        }}> <FiArrowRightCircle className="arrow-icon" /></NavLink>
+        pathname: `/${Country}`, Country,
+      }}
+      >
+        {' '}
+        <FiArrowRightCircle className="arrow-icon" />
+      </NavLink>
     </div>
-    
+
   );
 };
 
