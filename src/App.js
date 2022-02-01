@@ -9,14 +9,14 @@ import './styles/categories.css';
 function App() {
   return (
     <Routes>
-      <Route 
-      path="/"
-      element={( <HomePage />)}
+      <Route
+        path="/"
+        element={(<HomePage />)}
       />
-     <Route 
-     path="/country:name"
-     element={(<DetailsPage />)}
-     />
+      <Route
+        path="/country:name"
+        element={(<DetailsPage />)}
+      />
     </Routes>
   );
 }
