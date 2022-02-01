@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .category-top {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,11 +17,18 @@
 
 .category-country {
   font-weight: 100;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .category-infected {
   font-weight: 100;
   margin: 0;
+  font-size: 20px;
+}
+
+.arrow-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
   font-size: 25px;
 }

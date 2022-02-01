@@ -8,7 +8,7 @@ const Categories = (props) => {
     <div className="category-top">
       <h1 className="category-country">{country}</h1>
       <h1 className="category-infected">{infected}</h1>
-      <FiArrowRightCircle />
+      <FiArrowRightCircle className="arrow-icon" />
     </div>
   );
 };
