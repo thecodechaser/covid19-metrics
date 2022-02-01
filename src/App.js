@@ -5,6 +5,7 @@ import './styles/header.css';
 import './styles/app.css';
 import './styles/homePage.css';
 import './styles/categories.css';
+import './styles/detailsPage.css';
 
 function App() {
   return (
