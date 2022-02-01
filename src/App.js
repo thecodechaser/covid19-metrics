@@ -5,7 +5,6 @@ import './styles/homePage.css';
 import './styles/categories.css';
 
 function App() {
-  
   return (
     <div className="App">
       <HomePage />
