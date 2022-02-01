@@ -7,7 +7,7 @@ import Header from './Header';
 
 const HomePage = () => {
   const heading = 'COVID19 statestics';
-  const covid19Data = useSelector((state) => state.covid19Data);
+  const covid19Data = useSelector((state) => state.covid19Data.countriesData);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchDataApi());

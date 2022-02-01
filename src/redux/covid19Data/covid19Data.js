@@ -21,13 +21,15 @@ export const fetchDataApi = () => async (dispatch) => {
 };
 
 // initial-state
-const initialState = [];
+const initialState = {
+  countriesData: [],
+};
 
 // reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_DATA:
-      return action.payload;
+      return { ...state, countriesData: action.payload };
     default:
       return state;
   }

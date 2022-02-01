@@ -6,7 +6,7 @@ import Header from './Header';
 import { NavLink } from 'react-router-dom';
 
 const DetailsPage = () => {
-  const covid19Data = useSelector((state) => state.covid19Data);
+  const covid19Data = useSelector((state) => state.covid19Data.countriesData);
   const data = useLocation();
   const countryName = data.pathname.substring(1).replace(/[^a-zA-Z. ]/g, ' ');
   const countryData = covid19Data.filter((data) => data.Country.localeCompare(countryName) === 0);
