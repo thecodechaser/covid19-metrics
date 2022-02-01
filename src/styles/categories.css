@@ -1,11 +1,26 @@
 /* style-for-categories */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .category-top {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: linear-gradient(to right, #112b80, #3d5abb);
-  margin: 0;
+  /* margin: 0; */
   border: 1px solid #112b80;
   width: 49.5%;
+  height: 200px;
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.category-country {
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.category-infected {
+  font-weight: 100;
+  margin: 0;
+  font-size: 25px;
 }
