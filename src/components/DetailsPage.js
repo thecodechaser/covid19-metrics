@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack';
 import Header from './Header';
 import { NavLink } from 'react-router-dom';
+import Banner from '../asset/Banner.jpeg';
 
 const DetailsPage = () => {
   const covid19Data = useSelector((state) => state.covid19Data.countriesData);
@@ -13,11 +14,19 @@ const DetailsPage = () => {
   return (
     <>
       <Header heading={countryName} />
-      <div>
+      <main>
           <NavLink to={"/"}>
           <IoMdArrowRoundBack className="back-icon"/></NavLink>
-        <h1>Hello</h1>
-      </div>
+          <div className="banner-div">
+          <img src={Banner} alt="COVID19" className="img-banner" />
+          <h2 className="banner-h2">
+            COVID19 statestics
+            <br />
+            Over the world
+          </h2>
+        </div>
+        
+      </main>
     </>
   );
 };
