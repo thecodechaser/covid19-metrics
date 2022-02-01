@@ -4,8 +4,10 @@ import { v4 as uuidv4 } from 'uuid';
 import Banner from '../asset/Banner.jpeg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 import Categories from './homePageComponents/Categories';
+import Header from './Header';
 
 const HomePage = () => {
+  const heading = 'COVID19 statestics';
   const covidData = useSelector((state) => state.covid19Data);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -13,6 +15,8 @@ const HomePage = () => {
   }, [dispatch]);
 
   return (
+    <>
+    <Header heading={heading} />
     <main>
       <div className="banner-div">
         <img src={Banner} alt="COVID19" className="img-banner" />
@@ -35,6 +39,7 @@ const HomePage = () => {
       }
       </div>
     </main>
+    </>
   );
 };
 

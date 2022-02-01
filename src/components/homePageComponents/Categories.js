@@ -4,8 +4,11 @@ import { FiArrowRightCircle } from '@react-icons/all-files/fi/FiArrowRightCircle
 
 const Categories = (props) => {
   const { data: { Country, TotalConfirmed } } = props;
+  const click= ()=>{
+    console.log("hello");
+  }
   return (
-    <div className="category-top">
+    <div className="category-top" onClick={click} role="button" onKeyPress={click} tabIndex="0">
       <h1 className="category-country">{Country}</h1>
       <h1 className="category-infected">{TotalConfirmed}</h1>
       <FiArrowRightCircle className="arrow-icon" />
