@@ -17,7 +17,6 @@ const fetchData = (payload) => ({
 export const fetchDataApi = () => async (dispatch) => {
   const returnValue = await Axios.get(baseURL);
   const { data: { Countries } } = returnValue;
-  // console.log(Countries.length)
   dispatch(fetchData(Countries));
 };
 
