@@ -8,6 +8,7 @@ import Header from './Header';
 const HomePage = () => {
   const heading = 'COVID19 statestics';
   const covid19Data = useSelector((state) => state.covid19Data.countriesData);
+  const globalData = useSelector((state) => state.covid19Data.globalData);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchDataApi());
@@ -24,6 +25,7 @@ const HomePage = () => {
             <br />
             Over the world
           </h2>
+          <h2 className="banner-h2">{globalData.TotalConfirmed}</h2>
         </div>
         <div className="search-bar">
           <h3 className="search-bar-h3">Search by country name</h3>

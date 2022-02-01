@@ -9,7 +9,7 @@ import Banner from '../asset/Banner.jpeg';
 const DetailsPage = () => {
   const covid19Data = useSelector((state) => state.covid19Data.countriesData);
   const data = useLocation();
-  const countryName = data.pathname.substring(1).replace(/[^a-zA-Z. ]/g, ' ');
+  const countryName = data.pathname.substring(1).replace("%20", ' ').replace("%20", ' ');
   const countryData = covid19Data.filter((data) => data.Country.localeCompare(countryName) === 0);
   return (
     <>
@@ -21,9 +21,7 @@ const DetailsPage = () => {
         <div className="banner-div">
           <img src={Banner} alt="COVID19" className="img-banner" />
           <h2 className="banner-h2">
-            COVID19 statestics
-            <br />
-            Over the world
+            {countryName}
           </h2>
         </div>
         <div className="details-div">

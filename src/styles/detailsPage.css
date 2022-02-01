@@ -16,6 +16,10 @@
   border: 1px solid #112b80;
 }
 
+.details-div:nth-child(even) {
+    background: linear-gradient(to right, #3d5abb, #112b80);
+}
+
 .detail-name,
 .detail-data {
   margin: 20px;
