@@ -1,1 +1,45 @@
 /* styles-for-homepage */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.banner-div {
+  display: flex;
+  background-color: rgb(17, 43, 128);
+  justify-content: space-between;
+}
+
+.img-banner {
+  width: 50vw;
+  height: 40vh;
+}
+
+.banner-h2 {
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+  margin-right: 20px;
+  font-weight: 100;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(38, 67, 159);
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.search-bar-h3,
+.search-bar-h4 {
+  font-weight: 600;
+}
+
+.search-bar-input {
+  width: 450px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}

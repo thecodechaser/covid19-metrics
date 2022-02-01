@@ -1,7 +1,16 @@
+import Header from './components/Header';
+import HomePage from './components/HomePage';
+import './styles/header.css';
+import './styles/app.css';
+import './styles/homePage.css';
+import './styles/categories.css';
+
 function App() {
+  const heading = 'COVID19 statestics';
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header heading={heading} />
+      <HomePage />
     </div>
   );
 }
