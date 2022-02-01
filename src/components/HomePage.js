@@ -7,7 +7,7 @@ import Header from './Header';
 
 const HomePage = () => {
   const heading = 'COVID19 statestics';
-  const covidData = useSelector((state) => state.covid19Data);
+  const covid19Data = useSelector((state) => state.covid19Data);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchDataApi());
@@ -32,7 +32,7 @@ const HomePage = () => {
         </div>
         <div className="categories">
           {
-          covidData.map((data) => (
+          covid19Data.map((data) => (
             <Categories key={data.ID} data={data} />
           ))
       }
