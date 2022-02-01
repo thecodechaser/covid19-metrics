@@ -9,7 +9,7 @@ import Banner from '../asset/Banner.jpeg';
 const DetailsPage = () => {
   const covid19Data = useSelector((state) => state.covid19Data.countriesData);
   const data = useLocation();
-  const countryName = data.pathname.substring(1).replace("%20", ' ').replace("%20", ' ');
+  const countryName = data.pathname.substring(1).replace('%20', ' ').replace('%20', ' ');
   const countryData = covid19Data.filter((data) => data.Country.localeCompare(countryName) === 0);
   return (
     <>
