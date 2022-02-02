@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(38, 67, 159);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(38, 67, 159);
 }
 
 .footer-h3 {
-    text-align: center;
-    color: #fff;
-    font-family: 'Gill Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
 }
 
 .footer-link {
-    text-decoration: none;
+  text-decoration: none;
 }
