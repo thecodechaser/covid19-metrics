@@ -9,7 +9,7 @@
 
 .img-banner {
   width: 50vw;
-  height: 40vh;
+  height: 30vh;
 }
 
 .banner-details {
@@ -74,5 +74,10 @@
   .search-bar-input {
     width: 450px;
     padding: 10px;
+  }
+
+  .img-banner {
+    width: 50vw;
+    height: 40vh;
   }
 }
