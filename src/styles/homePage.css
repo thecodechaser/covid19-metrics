@@ -65,7 +65,7 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
-  background: url('../asset/background.jpg') no-repeat center center;
+  background: url('../asset/background.jpg') center center;
 }
 
 @media screen and (min-width: 992px) {
