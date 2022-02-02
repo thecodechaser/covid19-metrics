@@ -21,7 +21,7 @@ const DetailsPage = () => {
     <>
       <Header heading={countryName} />
       {covid19Data.length === 0 && (
-        <p>Something went wrong!</p>
+        <h1 className="wait-p">Please Wait !</h1>
       )}
       {
         covid19Data.length > 0 && (
