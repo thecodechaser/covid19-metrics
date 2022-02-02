@@ -12,6 +12,11 @@
   height: 40vh;
 }
 
+.banner-details {
+  display: flex;
+  flex-direction: column;
+}
+
 .banner-h2 {
   color: #fff;
   font-family: 'Gill Sans', sans-serif;

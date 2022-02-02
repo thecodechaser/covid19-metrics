@@ -1,17 +1,24 @@
-import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
+import DetailsPage from './components/DetailsPage';
 import './styles/header.css';
 import './styles/app.css';
 import './styles/homePage.css';
 import './styles/categories.css';
+import './styles/detailsPage.css';
 
 function App() {
-  const heading = 'COVID19 statestics';
   return (
-    <div className="App">
-      <Header heading={heading} />
-      <HomePage />
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={(<HomePage />)}
+      />
+      <Route
+        path="/:Country"
+        element={(<DetailsPage />)}
+      />
+    </Routes>
   );
 }
 
