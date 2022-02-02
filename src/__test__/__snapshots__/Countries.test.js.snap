@@ -8,9 +8,14 @@ Object {
       <div
         class="category-top"
       >
-        <h1
-          class="category-country"
-        />
+        <a
+          class="nav-links"
+          href="/undefined"
+        >
+          <h1
+            class="category-country"
+          />
+        </a>
         <h1
           class="category-infected"
         >
@@ -56,9 +61,14 @@ Object {
     <div
       class="category-top"
     >
-      <h1
-        class="category-country"
-      />
+      <a
+        class="nav-links"
+        href="/undefined"
+      >
+        <h1
+          class="category-country"
+        />
+      </a>
       <h1
         class="category-infected"
       >

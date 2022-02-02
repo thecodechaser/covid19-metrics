@@ -74,11 +74,11 @@ Object {
               <br />
               Over the world
             </h2>
-            <h2
-              class="banner-h2"
+            <h3
+              class="banner-h3"
             />
-            <h2
-              class="banner-h2"
+            <h4
+              class="banner-h4"
             />
           </div>
         </div>
@@ -195,11 +195,11 @@ Object {
             <br />
             Over the world
           </h2>
-          <h2
-            class="banner-h2"
+          <h3
+            class="banner-h3"
           />
-          <h2
-            class="banner-h2"
+          <h4
+            class="banner-h4"
           />
         </div>
       </div>
