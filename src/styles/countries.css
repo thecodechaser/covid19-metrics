@@ -16,13 +16,14 @@
 
 .category-country {
   font-weight: 100;
-  font-size: 35px;
+  font-size: 25px;
+  margin-top: 60px;
 }
 
 .category-infected {
   font-weight: 100;
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .arrow-icon {
@@ -31,4 +32,14 @@
   top: 20px;
   font-size: 25px;
   color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .category-country {
+    font-size: 35px;
+  }
+  
+  .category-infected {
+    font-size: 20px;
+  }
 }
