@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack';
 import { NavLink } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 import Banner from '../asset/Banner.jpeg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 
@@ -62,6 +63,7 @@ const DetailsPage = () => {
           <h1 className="detail-data">{countryData[0].Date}</h1>
         </div>
       </main>
+      <Footer />
     </>
   );
 };
