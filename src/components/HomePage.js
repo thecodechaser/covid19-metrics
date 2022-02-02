@@ -4,6 +4,7 @@ import Banner from '../asset/Banner.jpeg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 import Categories from './homePageComponents/Categories';
 import Header from './Header';
+import Footer from './Footer';
 
 const HomePage = () => {
   const heading = 'COVID19 statestics';
@@ -43,6 +44,7 @@ const HomePage = () => {
       }
         </div>
       </main>
+      <Footer />
     </>
   );
 };
