@@ -15,13 +15,23 @@
 .banner-details {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .banner-h2 {
   color: #fff;
   font-family: 'Gill Sans', sans-serif;
-  margin-right: 20px;
+  margin: 10px 15px;
   font-weight: 100;
+  font-size: 20px;
+}
+
+.banner-h3 {
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+  margin: 0 15px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .search-bar {
@@ -47,4 +57,16 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media  screen and (min-width: 992px) {
+  .banner-h2 {
+  font-size: 30px;
+  margin-right: 100px;
+  }
+  
+  .banner-h3 {
+    font-size: 20px;
+    margin-right: 100px;
+  }
 }
