@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack';
 import { NavLink } from 'react-router-dom';
 import Header from './Header';
 import Banner from '../asset/Banner.jpeg';
+import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 
 const DetailsPage = () => {
+  const dispatch = useDispatch();
   const covid19Data = useSelector((state) => state.covid19Data.countriesData);
+  if(covid19Data.length===0){
+    dispatch(fetchDataApi());
+  }
   const data = useLocation();
   const countryName = data.pathname.substring(1).replace('%20', ' ').replace('%20', ' ');
   const countryData = covid19Data.filter((data) => data.Country.localeCompare(countryName) === 0);
