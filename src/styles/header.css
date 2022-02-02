@@ -17,6 +17,7 @@
 .header-h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
+  cursor: pointer;
 }
 
 .mic {
@@ -24,5 +25,6 @@
 }
 
 .icon {
+  cursor: pointer;
   font-size: 20px;
 }

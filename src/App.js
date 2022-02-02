@@ -4,7 +4,7 @@ import DetailsPage from './components/DetailsPage';
 import './styles/header.css';
 import './styles/app.css';
 import './styles/homePage.css';
-import './styles/categories.css';
+import './styles/countries.css';
 import './styles/detailsPage.css';
 import './styles/footer.css';
 
