@@ -20,6 +20,11 @@ const DetailsPage = () => {
   return (
     <>
       <Header heading={countryName} />
+      {covid19Data.length===0 && (
+        <p>Something went wrong!</p>
+      )}
+      {
+        covid19Data.length>0 && (
       <main>
         <NavLink to="/">
           <IoMdArrowRoundBack className="back-icon" />
@@ -63,6 +68,8 @@ const DetailsPage = () => {
           <h1 className="detail-data">{countryData[0].Date}</h1>
         </div>
       </main>
+      )
+    }
       <Footer />
     </>
   );
