@@ -49,24 +49,30 @@
 }
 
 .search-bar-input {
-  width: 450px;
-  padding: 10px;
+  width: 300px;
+  padding: 8px;
   border-radius: 15px;
 }
 
 .categories {
   display: flex;
   flex-wrap: wrap;
+  background: url('../asset/background.jpg') no-repeat center center;;
 }
 
-@media  screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .banner-h2 {
-  font-size: 30px;
-  margin-right: 100px;
+    font-size: 30px;
+    margin-right: 100px;
   }
-  
+
   .banner-h3 {
     font-size: 20px;
     margin-right: 100px;
+  }
+
+  .search-bar-input {
+    width: 450px;
+    padding: 10px;
   }
 }

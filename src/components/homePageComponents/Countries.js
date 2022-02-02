@@ -7,7 +7,14 @@ const Countries = (props) => {
   const { data: { Country, TotalConfirmed } } = props;
   return (
     <div className="category-top">
-      <h1 className="category-country">{Country}</h1>
+      <NavLink
+        className="nav-links"
+        to={{
+          pathname: `/${Country}`, Country,
+        }}
+      >
+        <h1 className="category-country">{Country}</h1>
+      </NavLink>
       <h1 className="category-infected">{TotalConfirmed}</h1>
       <NavLink to={{
         pathname: `/${Country}`, Country,
