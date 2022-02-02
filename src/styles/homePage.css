@@ -23,7 +23,7 @@
   font-family: 'Gill Sans', sans-serif;
   margin: 10px 15px;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .banner-h3 {
@@ -31,7 +31,15 @@
   font-family: 'Gill Sans', sans-serif;
   margin: 0 15px;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 18px;
+}
+
+.banner-h4 {
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+  margin: 0 15px;
+  font-weight: 100;
+  font-size: 13px;
 }
 
 .search-bar {
@@ -67,7 +75,12 @@
   }
 
   .banner-h3 {
-    font-size: 20px;
+    font-size: 22px;
+    margin-right: 100px;
+  }
+
+  .banner-h4 {
+    font-size: 15px;
     margin-right: 100px;
   }
 

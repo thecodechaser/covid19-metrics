@@ -27,8 +27,8 @@ const HomePage = () => {
               <br />
               Over the world
             </h2>
-            <h2 className="banner-h3">{globalData.TotalConfirmed}</h2>
-            <h2 className="banner-h3">{globalData.Date}</h2>
+            <h3 className="banner-h3">{globalData.TotalConfirmed}</h3>
+            <h4 className="banner-h4">{globalData.Date}</h4>
           </div>
         </div>
         <div className="search-bar">

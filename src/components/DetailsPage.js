@@ -35,8 +35,8 @@ const DetailsPage = () => {
               <h2 className="banner-h2">
                 {countryName}
               </h2>
-              <h2 className="banner-h3">{countryData[0].TotalConfirmed}</h2>
-              <h2 className="banner-h3">{countryData[0].Date}</h2>
+              <h3 className="banner-h3">{countryData[0].TotalConfirmed}</h3>
+              <h4 className="banner-h4">{countryData[0].Date}</h4>
             </div>
           </div>
           <div className="details-div">
