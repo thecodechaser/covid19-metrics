@@ -1,20 +1,20 @@
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
-import Categories from '../components/homePageComponents/Categories';
+import Countries from '../components/homePageComponents/Countries';
 
-describe('Categories tests', () => {
+describe('Countries tests', () => {
   test('should render', () => {
     const data = {
       country: 'India',
       TotalConfirmed: 1000,
     };
-    const categories = render(
+    const countries = render(
       <BrowserRouter>
-        <Categories data={data} />
+        <Countries data={data} />
       </BrowserRouter>,
     );
 
-    expect(categories).toMatchSnapshot();
+    expect(countries).toMatchSnapshot();
   });
 });

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Categories tests should render 1`] = `
+exports[`Countries tests should render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
