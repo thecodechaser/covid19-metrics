@@ -5,13 +5,13 @@ import Categories from '../components/homePageComponents/Categories';
 
 describe('Categories tests', () => {
   test('should render', () => {
-      const data ={
-          country: 'India',
-          TotalConfirmed: 1000,
-      }
+    const data = {
+      country: 'India',
+      TotalConfirmed: 1000,
+    };
     const categories = render(
       <BrowserRouter>
-        <Categories data={data}/>
+        <Categories data={data} />
       </BrowserRouter>,
     );
 
