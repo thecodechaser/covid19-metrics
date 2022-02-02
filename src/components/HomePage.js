@@ -20,12 +20,15 @@ const HomePage = () => {
       <main>
         <div className="banner-div">
           <img src={Banner} alt="COVID19" className="img-banner" />
-          <h2 className="banner-h2">
-            COVID19 statestics
-            <br />
-            Over the world
-          </h2>
-          <h2 className="banner-h2">{globalData.TotalConfirmed}</h2>
+          <div className="banner-details">
+            <h2 className="banner-h2">
+              COVID19 statestics
+              <br />
+              Over the world
+            </h2>
+            <h2 className="banner-h2">{globalData.TotalConfirmed}</h2>
+            <h2 className="banner-h2">{globalData.Date}</h2>
+          </div>
         </div>
         <div className="search-bar">
           <h3 className="search-bar-h3">Search by country name</h3>

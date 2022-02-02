@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router';
 import { useSelector, useDispatch } from 'react-redux';
 import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack';
@@ -10,7 +10,7 @@ import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 const DetailsPage = () => {
   const dispatch = useDispatch();
   const covid19Data = useSelector((state) => state.covid19Data.countriesData);
-  if(covid19Data.length===0){
+  if (covid19Data.length === 0) {
     dispatch(fetchDataApi());
   }
   const data = useLocation();
@@ -25,9 +25,13 @@ const DetailsPage = () => {
         </NavLink>
         <div className="banner-div">
           <img src={Banner} alt="COVID19" className="img-banner" />
-          <h2 className="banner-h2">
-            {countryName}
-          </h2>
+          <div className="banner-details">
+            <h2 className="banner-h2">
+              {countryName}
+            </h2>
+            <h2 className="banner-h2">{countryData[0].TotalConfirmed}</h2>
+            <h2 className="banner-h2">{countryData[0].Date}</h2>
+          </div>
         </div>
         <div className="details-div">
           <h1 className="detail-name">Total Confirmed</h1>
