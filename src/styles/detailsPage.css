@@ -1,0 +1,38 @@
+/* style-for-details-page */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.back-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.details-div {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #112b80, #3d5abb);
+  border: 1px solid #112b80;
+}
+
+.details-div:nth-child(even) {
+  background: linear-gradient(to right, #3d5abb, #112b80);
+}
+
+.detail-name,
+.detail-data {
+  margin: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 100;
+}
+
+.wait-p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: 100;
+}

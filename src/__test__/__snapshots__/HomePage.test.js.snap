@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage tests should render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="header"
+      >
+        <div
+          class="header-top"
+        >
+          <h3
+            class="header-h3"
+          >
+            COVID19 statestics
+          </h3>
+          <div
+            class="header-icons"
+          >
+            <svg
+              class="mic icon"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 3a3 3 0 016 0v5a3 3 0 01-6 0V3z"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M3.5 6.5A.5.5 0 014 7v1a4 4 0 008 0V7a.5.5 0 011 0v1a5 5 0 01-4.5 4.975V15h3a.5.5 0 010 1h-7a.5.5 0 010-1h3v-2.025A5 5 0 013 8V7a.5.5 0 01.5-.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              class="settings icon"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416.3 256c0-21 13.1-38.9 31.7-46.1-4.9-20.5-13-39.7-23.7-57.1-6.4 2.8-13.2 4.3-20.1 4.3-12.6 0-25.2-4.8-34.9-14.4-14.9-14.9-18.2-36.8-10.2-55-17.3-10.7-36.6-18.8-57-23.7C295 82.5 277 95.7 256 95.7S217 82.5 209.9 64c-20.5 4.9-39.7 13-57.1 23.7 8.1 18.1 4.7 40.1-10.2 55-9.6 9.6-22.3 14.4-34.9 14.4-6.9 0-13.7-1.4-20.1-4.3C77 170.3 68.9 189.5 64 210c18.5 7.1 31.7 25 31.7 46.1 0 21-13.1 38.9-31.6 46.1 4.9 20.5 13 39.7 23.7 57.1 6.4-2.8 13.2-4.2 20-4.2 12.6 0 25.2 4.8 34.9 14.4 14.8 14.8 18.2 36.8 10.2 54.9 17.4 10.7 36.7 18.8 57.1 23.7 7.1-18.5 25-31.6 46-31.6s38.9 13.1 46 31.6c20.5-4.9 39.7-13 57.1-23.7-8-18.1-4.6-40 10.2-54.9 9.6-9.6 22.2-14.4 34.9-14.4 6.8 0 13.7 1.4 20 4.2 10.7-17.4 18.8-36.7 23.7-57.1-18.4-7.2-31.6-25.1-31.6-46.2zm-159.4 79.9c-44.3 0-80-35.9-80-80s35.7-80 80-80 80 35.9 80 80-35.7 80-80 80z"
+              />
+            </svg>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div
+          class="banner-div"
+        >
+          <img
+            alt="COVID19"
+            class="img-banner"
+            src="Banner.jpeg"
+          />
+          <div
+            class="banner-details"
+          >
+            <h2
+              class="banner-h2"
+            >
+              COVID19 statestics
+              <br />
+              Over the world
+            </h2>
+            <h3
+              class="banner-h3"
+            />
+            <h4
+              class="banner-h4"
+            />
+          </div>
+        </div>
+        <div
+          class="search-bar"
+        >
+          <h3
+            class="search-bar-h3"
+          >
+            Search by country name
+          </h3>
+          <input
+            class="search-bar-input"
+            placeholder="Search"
+            type="text"
+          />
+          <h4
+            class="search-bar-h4"
+          >
+            STATS BY COUNTRY
+          </h4>
+        </div>
+        <div
+          class="categories"
+        />
+      </main>
+      <footer
+        class="footer"
+      >
+        <h3
+          class="footer-h3"
+        >
+          <span>
+            Created By
+          </span>
+          <a
+            class="footer-link"
+            href="https://github.com/thecodechaser"
+          >
+             Ranjeet Singh
+          </a>
+        </h3>
+      </footer>
+      ,
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header"
+    >
+      <div
+        class="header-top"
+      >
+        <h3
+          class="header-h3"
+        >
+          COVID19 statestics
+        </h3>
+        <div
+          class="header-icons"
+        >
+          <svg
+            class="mic icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 3a3 3 0 016 0v5a3 3 0 01-6 0V3z"
+            />
+            <path
+              clip-rule="evenodd"
+              d="M3.5 6.5A.5.5 0 014 7v1a4 4 0 008 0V7a.5.5 0 011 0v1a5 5 0 01-4.5 4.975V15h3a.5.5 0 010 1h-7a.5.5 0 010-1h3v-2.025A5 5 0 013 8V7a.5.5 0 01.5-.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <svg
+            class="settings icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416.3 256c0-21 13.1-38.9 31.7-46.1-4.9-20.5-13-39.7-23.7-57.1-6.4 2.8-13.2 4.3-20.1 4.3-12.6 0-25.2-4.8-34.9-14.4-14.9-14.9-18.2-36.8-10.2-55-17.3-10.7-36.6-18.8-57-23.7C295 82.5 277 95.7 256 95.7S217 82.5 209.9 64c-20.5 4.9-39.7 13-57.1 23.7 8.1 18.1 4.7 40.1-10.2 55-9.6 9.6-22.3 14.4-34.9 14.4-6.9 0-13.7-1.4-20.1-4.3C77 170.3 68.9 189.5 64 210c18.5 7.1 31.7 25 31.7 46.1 0 21-13.1 38.9-31.6 46.1 4.9 20.5 13 39.7 23.7 57.1 6.4-2.8 13.2-4.2 20-4.2 12.6 0 25.2 4.8 34.9 14.4 14.8 14.8 18.2 36.8 10.2 54.9 17.4 10.7 36.7 18.8 57.1 23.7 7.1-18.5 25-31.6 46-31.6s38.9 13.1 46 31.6c20.5-4.9 39.7-13 57.1-23.7-8-18.1-4.6-40 10.2-54.9 9.6-9.6 22.2-14.4 34.9-14.4 6.8 0 13.7 1.4 20 4.2 10.7-17.4 18.8-36.7 23.7-57.1-18.4-7.2-31.6-25.1-31.6-46.2zm-159.4 79.9c-44.3 0-80-35.9-80-80s35.7-80 80-80 80 35.9 80 80-35.7 80-80 80z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="banner-div"
+      >
+        <img
+          alt="COVID19"
+          class="img-banner"
+          src="Banner.jpeg"
+        />
+        <div
+          class="banner-details"
+        >
+          <h2
+            class="banner-h2"
+          >
+            COVID19 statestics
+            <br />
+            Over the world
+          </h2>
+          <h3
+            class="banner-h3"
+          />
+          <h4
+            class="banner-h4"
+          />
+        </div>
+      </div>
+      <div
+        class="search-bar"
+      >
+        <h3
+          class="search-bar-h3"
+        >
+          Search by country name
+        </h3>
+        <input
+          class="search-bar-input"
+          placeholder="Search"
+          type="text"
+        />
+        <h4
+          class="search-bar-h4"
+        >
+          STATS BY COUNTRY
+        </h4>
+      </div>
+      <div
+        class="categories"
+      />
+    </main>
+    <footer
+      class="footer"
+    >
+      <h3
+        class="footer-h3"
+      >
+        <span>
+          Created By
+        </span>
+        <a
+          class="footer-link"
+          href="https://github.com/thecodechaser"
+        >
+           Ranjeet Singh
+        </a>
+      </h3>
+    </footer>
+    ,
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

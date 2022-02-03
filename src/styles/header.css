@@ -1,0 +1,30 @@
+/* styles-for-header */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(38, 67, 159);
+  color: #fff;
+}
+
+.header-icons {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.header-h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.mic {
+  margin-right: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
