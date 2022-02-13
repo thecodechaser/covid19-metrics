@@ -9,15 +9,27 @@
   font-size: 25px;
 }
 
+.details-top-section {
+  margin: 50px 0;
+}
+
+.radius {
+  border-radius: 50px 50px 0 0;
+}
+
+.radius2 {
+  border-radius: 0 0 50px 50px;
+}
+
 .details-div {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(to right, #112b80, #3d5abb);
+  background-color: #142d8180;
   border: 1px solid #112b80;
 }
 
 .details-div:nth-child(even) {
-  background: linear-gradient(to right, #3d5abb, #112b80);
+  background: linear-gradient(to right, #3d5abbc9, #112b80b2);
 }
 
 .detail-name,
@@ -39,14 +51,6 @@
 
 @media screen and (min-width: 992px) {
   .details-top-section {
-    margin: 0 100px;
-  }
-
-  .radius {
-    border-radius: 50px 50px 0 0;
-  }
-
-  .radius2 {
-    border-radius: 0 0 50px 50px;
+    margin: 50px 100px;
   }
 }
