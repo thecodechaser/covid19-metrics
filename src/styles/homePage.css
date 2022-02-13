@@ -6,6 +6,7 @@
   background-color: #142d8180;
   justify-content: space-between;
   border-radius: 50px;
+  margin-top: 10px;
 }
 
 .img-banner {
@@ -75,17 +76,15 @@
 @media screen and (min-width: 992px) {
   .banner-h2 {
     font-size: 30px;
-    margin-right: 100px;
+    margin: 50px 150px 30px 0;
   }
 
   .banner-h3 {
     font-size: 22px;
-    margin-right: 100px;
   }
 
   .banner-h4 {
     font-size: 15px;
-    margin-right: 100px;
   }
 
   .search-bar-input {
@@ -103,6 +102,6 @@
   }
 
   .banner-div {
-    margin: 0 100px;
+    margin: 10px 100px;
   }
 }
