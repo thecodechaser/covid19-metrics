@@ -3,8 +3,7 @@
 
 .banner-div {
   display: flex;
-  background-color: rgb(17, 43, 128);
-  /* background-color: rgba(38, 66, 159, 0.466); */
+  background-color: #142d8180;
   justify-content: space-between;
   border-radius: 50px;
 }
@@ -12,7 +11,7 @@
 .img-banner {
   width: 50vw;
   height: 30vh;
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 50px 0 0 50px;
 }
 

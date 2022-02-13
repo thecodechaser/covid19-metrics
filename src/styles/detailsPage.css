@@ -36,3 +36,10 @@
   font-family: 'Gill Sans', sans-serif;
   font-weight: 100;
 }
+
+@media screen and (min-width: 992px) {
+  .details-top-section {
+    margin: 0 100px;
+    border-radius: 50px;
+  }
+}

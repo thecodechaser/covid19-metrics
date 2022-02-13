@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack
 import { NavLink } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
-import Banner from '../asset/Banner.jpeg';
+import Banner from '../asset/Banner2.jpg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 
 const DetailsPage = () => {
@@ -39,6 +39,7 @@ const DetailsPage = () => {
               <h4 className="banner-h4">{countryData[0].Date}</h4>
             </div>
           </div>
+          <section className="details-top-section">
           <div className="details-div">
             <h1 className="detail-name">Total Confirmed</h1>
             <h1 className="detail-data">{countryData[0].TotalConfirmed}</h1>
@@ -67,6 +68,7 @@ const DetailsPage = () => {
             <h1 className="detail-name">Last Updated</h1>
             <h1 className="detail-data">{countryData[0].Date}</h1>
           </div>
+          </section>
         </main>
         )
     }
