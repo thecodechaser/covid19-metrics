@@ -40,6 +40,13 @@
 @media screen and (min-width: 992px) {
   .details-top-section {
     margin: 0 100px;
-    border-radius: 50px;
+  }
+
+  .radius {
+    border-radius: 50px 50px 0 0;
+  }
+
+  .radius2 {
+    border-radius: 0 0 50px 50px;
   }
 }

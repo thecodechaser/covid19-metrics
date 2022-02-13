@@ -40,34 +40,34 @@ const DetailsPage = () => {
             </div>
           </div>
           <section className="details-top-section">
-          <div className="details-div">
-            <h1 className="detail-name">Total Confirmed</h1>
-            <h1 className="detail-data">{countryData[0].TotalConfirmed}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">New Confirmed</h1>
-            <h1 className="detail-data">{countryData[0].NewConfirmed}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">Total Recovered</h1>
-            <h1 className="detail-data">{countryData[0].TotalRecovered}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">New Recovered</h1>
-            <h1 className="detail-data">{countryData[0].NewRecovered}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">Total Deaths</h1>
-            <h1 className="detail-data">{countryData[0].TotalDeaths}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">New Confirmed</h1>
-            <h1 className="detail-data">{countryData[0].NewDeaths}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">Last Updated</h1>
-            <h1 className="detail-data">{countryData[0].Date}</h1>
-          </div>
+            <div className="details-div radius">
+              <h1 className="detail-name">Total Confirmed</h1>
+              <h1 className="detail-data">{countryData[0].TotalConfirmed}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">New Confirmed</h1>
+              <h1 className="detail-data">{countryData[0].NewConfirmed}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">Total Recovered</h1>
+              <h1 className="detail-data">{countryData[0].TotalRecovered}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">New Recovered</h1>
+              <h1 className="detail-data">{countryData[0].NewRecovered}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">Total Deaths</h1>
+              <h1 className="detail-data">{countryData[0].TotalDeaths}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">New Confirmed</h1>
+              <h1 className="detail-data">{countryData[0].NewDeaths}</h1>
+            </div>
+            <div className="details-div radius2">
+              <h1 className="detail-name">Last Updated</h1>
+              <h1 className="detail-data">{countryData[0].Date}</h1>
+            </div>
           </section>
         </main>
         )
