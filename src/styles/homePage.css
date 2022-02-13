@@ -10,6 +10,7 @@
 .img-banner {
   width: 50vw;
   height: 30vh;
+  opacity: .8;
 }
 
 .banner-details {
@@ -46,7 +47,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(38, 67, 159);
   color: #fff;
   font-family: 'Gill Sans', sans-serif;
 }
@@ -65,7 +65,8 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(to right, #142d81ef, #3d5abbec), url('../asset/background.jpg') center center;
+  border: 1px solid #112b80;
+  background-color: #142d8180;
 }
 
 @media screen and (min-width: 992px) {
@@ -92,5 +93,9 @@
   .img-banner {
     width: 50vw;
     height: 40vh;
+  }
+
+  .categories {
+    margin: 0 100px;
   }
 }
