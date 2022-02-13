@@ -3,7 +3,8 @@
 
 .banner-div {
   display: flex;
-  background-color: rgb(17, 43, 128);
+  background-color: rgba(17, 43, 128, 0.671);
+  /* background-color: rgba(38, 66, 159, 0.466); */
   justify-content: space-between;
 }
 
@@ -91,11 +92,15 @@
   }
 
   .img-banner {
-    width: 50vw;
+    width: 45vw;
     height: 40vh;
   }
 
   .categories {
+    margin: 0 100px;
+  }
+
+  .banner-div {
     margin: 0 100px;
   }
 }
