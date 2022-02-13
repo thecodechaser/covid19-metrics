@@ -94,6 +94,7 @@ Object {
             class="search-bar-input"
             placeholder="Search"
             type="text"
+            value=""
           />
           <h4
             class="search-bar-h4"
@@ -215,6 +216,7 @@ Object {
           class="search-bar-input"
           placeholder="Search"
           type="text"
+          value=""
         />
         <h4
           class="search-bar-h4"

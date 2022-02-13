@@ -7,6 +7,7 @@ Object {
     <div>
       <div
         class="category-top"
+        style="transform: none;"
       >
         <a
           class="nav-links"
@@ -60,6 +61,7 @@ Object {
   "container": <div>
     <div
       class="category-top"
+      style="transform: none;"
     >
       <a
         class="nav-links"
