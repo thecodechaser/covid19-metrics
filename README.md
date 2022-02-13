@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/thecodechaser-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Covid19 Metrics
 
-## Available Scripts
+> Covid19 Metrics is a web application that fectches covid data from API and renders on the screen. It shows all countries with the confirmed covid cases on the homepage, Users can select any country and goto the details page. Details page shows other details for that specific country like recovered cases, confirmed cases, deaths.
 
-In the project directory, you can run:
+## Screenshots:
 
-### `npm start`
+### Mobile
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![screenshot](./src/asset/Screenshot1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![screenshot](./src/asset/Screenshot2.png)
 
-### `npm test`
+### Desktop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot](./src/asset/Screenshot3.png)
 
-### `npm run build`
+![screenshot](./src/asset/Screenshot4.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
+- CSS
+- JavaScript
+- REACT
+- Redux
+- Webpack
+- Jest
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Online live link
 
-### `npm run eject`
+[Visit project online](https://covid19-metrics-thecodechaser.netlify.app)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running follow these simple example steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- A text editor(preferably Visual Studio Code)
+- Node
+- Web browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install
+- [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
 
-## Learn More
+### Using it Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Clone the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash 
+git clone https://github.com/thecodechaser/covid19-metrics
 
-### Code Splitting
+cd covid19-metrics
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Install dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm i 
+or
+npm install
+```
+- To Start the development server
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- To test the project
+```bash
+npm run test
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Visit And Open Files
 
-### Advanced Configuration
+[Visit Repo](https://github.com/thecodechaser/covid19-metrics)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Download Repo
 
-### Deployment
+[Download Repo](https://github.com/thecodechaser/covid19-metrics/archive/refs/heads/main.zip)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Authors
 
-### `npm run build` fails to minify
+👤 **Ranjeet Singh**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@githubhandle](https://github.com/thecodechaser)
+- Twitter: [@twitterhandle](https://twitter.com/thecodechaser)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/thecodechaser)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/thecodechaser/covid19-metrics/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspired by original design for Creative Commons by Nelson Sakwa on [Behance](https://www.behance.net/sakwadesignstudio).
+- Inspiration: Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

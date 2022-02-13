@@ -7,10 +7,16 @@ Object {
     <div>
       <div
         class="category-top"
+        style="transform: none;"
       >
-        <h1
-          class="category-country"
-        />
+        <a
+          class="nav-links"
+          href="/undefined"
+        >
+          <h1
+            class="category-country"
+          />
+        </a>
         <h1
           class="category-infected"
         >
@@ -55,10 +61,16 @@ Object {
   "container": <div>
     <div
       class="category-top"
+      style="transform: none;"
     >
-      <h1
-        class="category-country"
-      />
+      <a
+        class="nav-links"
+        href="/undefined"
+      >
+        <h1
+          class="category-country"
+        />
+      </a>
       <h1
         class="category-infected"
       >

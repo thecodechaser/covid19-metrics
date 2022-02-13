@@ -2,11 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FiArrowRightCircle } from '@react-icons/all-files/fi/FiArrowRightCircle';
 import { NavLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Countries = (props) => {
   const { data: { Country, TotalConfirmed } } = props;
   return (
-    <div className="category-top">
+    <motion.div
+      className="category-top"
+      initial={{ x: '-100vw' }}
+      animate={{ x: -10 }}
+      transition={{ delay: 0.2, duration: 0.8 }}
+      whileHover={{ scale: 1.2, zIndex: 1 }}
+    >
       <NavLink
         className="nav-links"
         to={{
@@ -23,7 +30,7 @@ const Countries = (props) => {
         {' '}
         <FiArrowRightCircle className="arrow-icon" />
       </NavLink>
-    </div>
+    </motion.div>
 
   );
 };

@@ -74,11 +74,11 @@ Object {
               <br />
               Over the world
             </h2>
-            <h2
-              class="banner-h2"
+            <h3
+              class="banner-h3"
             />
-            <h2
-              class="banner-h2"
+            <h4
+              class="banner-h4"
             />
           </div>
         </div>
@@ -94,6 +94,7 @@ Object {
             class="search-bar-input"
             placeholder="Search"
             type="text"
+            value=""
           />
           <h4
             class="search-bar-h4"
@@ -195,11 +196,11 @@ Object {
             <br />
             Over the world
           </h2>
-          <h2
-            class="banner-h2"
+          <h3
+            class="banner-h3"
           />
-          <h2
-            class="banner-h2"
+          <h4
+            class="banner-h4"
           />
         </div>
       </div>
@@ -215,6 +216,7 @@ Object {
           class="search-bar-input"
           placeholder="Search"
           type="text"
+          value=""
         />
         <h4
           class="search-bar-h4"
