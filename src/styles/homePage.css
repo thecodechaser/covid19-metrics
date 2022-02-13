@@ -65,7 +65,7 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
-  background: url('../asset/background.jpg') center center;
+  background: linear-gradient(to right, #142d81ef, #3d5abbec), url('../asset/background.jpg') center center;
 }
 
 @media screen and (min-width: 992px) {
