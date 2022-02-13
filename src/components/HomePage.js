@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Banner from '../asset/Banner.jpeg';
+import Banner from '../asset/Banner2.jpg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 import Countries from './homePageComponents/Countries';
 import Header from './Header';

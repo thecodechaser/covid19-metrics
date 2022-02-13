@@ -3,9 +3,10 @@ import { useLocation } from 'react-router';
 import { useSelector, useDispatch } from 'react-redux';
 import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack';
 import { NavLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Header from './Header';
 import Footer from './Footer';
-import Banner from '../asset/Banner.jpeg';
+import Banner from '../asset/Banner2.jpg';
 import { fetchDataApi } from '../redux/covid19Data/covid19Data';
 
 const DetailsPage = () => {
@@ -39,34 +40,42 @@ const DetailsPage = () => {
               <h4 className="banner-h4">{countryData[0].Date}</h4>
             </div>
           </div>
-          <div className="details-div">
-            <h1 className="detail-name">Total Confirmed</h1>
-            <h1 className="detail-data">{countryData[0].TotalConfirmed}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">New Confirmed</h1>
-            <h1 className="detail-data">{countryData[0].NewConfirmed}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">Total Recovered</h1>
-            <h1 className="detail-data">{countryData[0].TotalRecovered}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">New Recovered</h1>
-            <h1 className="detail-data">{countryData[0].NewRecovered}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">Total Deaths</h1>
-            <h1 className="detail-data">{countryData[0].TotalDeaths}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">New Confirmed</h1>
-            <h1 className="detail-data">{countryData[0].NewDeaths}</h1>
-          </div>
-          <div className="details-div">
-            <h1 className="detail-name">Last Updated</h1>
-            <h1 className="detail-data">{countryData[0].Date}</h1>
-          </div>
+          <motion.section
+            className="details-top-section"
+            initial={{ x: '-100vw' }}
+            animate={{ x: -0 }}
+            transition={{ delay: 0.2, duration: 0.8 }}
+            whileHover={{ scale: 1.05, zIndex: 1 }}
+          >
+            <div className="details-div radius">
+              <h1 className="detail-name">Total Confirmed</h1>
+              <h1 className="detail-data">{countryData[0].TotalConfirmed}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">New Confirmed</h1>
+              <h1 className="detail-data">{countryData[0].NewConfirmed}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">Total Recovered</h1>
+              <h1 className="detail-data">{countryData[0].TotalRecovered}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">New Recovered</h1>
+              <h1 className="detail-data">{countryData[0].NewRecovered}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">Total Deaths</h1>
+              <h1 className="detail-data">{countryData[0].TotalDeaths}</h1>
+            </div>
+            <div className="details-div">
+              <h1 className="detail-name">New Confirmed</h1>
+              <h1 className="detail-data">{countryData[0].NewDeaths}</h1>
+            </div>
+            <div className="details-div radius2">
+              <h1 className="detail-name">Last Updated</h1>
+              <h1 className="detail-data">{countryData[0].Date}</h1>
+            </div>
+          </motion.section>
         </main>
         )
     }

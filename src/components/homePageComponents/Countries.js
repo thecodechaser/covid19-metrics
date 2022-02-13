@@ -10,9 +10,9 @@ const Countries = (props) => {
     <motion.div
       className="category-top"
       initial={{ x: '-100vw' }}
-      animate={{ x: -10 }}
+      animate={{ x: -0 }}
       transition={{ delay: 0.2, duration: 0.8 }}
-      whileHover={{ scale: 1.2, zIndex: 1 }}
+      whileHover={{ scale: 1.1, zIndex: 1 }}
     >
       <NavLink
         className="nav-links"
