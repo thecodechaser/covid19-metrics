@@ -3,15 +3,17 @@
 
 .banner-div {
   display: flex;
-  background-color: rgba(17, 43, 128, 0.671);
+  background-color: rgb(17, 43, 128);
   /* background-color: rgba(38, 66, 159, 0.466); */
   justify-content: space-between;
+  border-radius: 50px;
 }
 
 .img-banner {
   width: 50vw;
   height: 30vh;
   opacity: .8;
+  border-radius: 50px 0 0 50px;
 }
 
 .banner-details {
@@ -68,6 +70,7 @@
   flex-wrap: wrap;
   border: 1px solid #112b80;
   background-color: #142d8180;
+  border-radius: 50px;
 }
 
 @media screen and (min-width: 992px) {
