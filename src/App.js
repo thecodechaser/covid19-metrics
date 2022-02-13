@@ -16,7 +16,7 @@ function App() {
         element={(<HomePage />)}
       />
       <Route
-        path="/:Country"
+        path="details/:Country"
         element={(<DetailsPage />)}
       />
     </Routes>

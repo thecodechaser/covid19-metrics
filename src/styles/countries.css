@@ -19,6 +19,8 @@
   margin-top: 60px;
   color: #fff;
   text-decoration: none;
+  background-color: transparent;
+  border: none;
 }
 
 .category-infected {

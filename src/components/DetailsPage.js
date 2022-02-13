@@ -1,8 +1,7 @@
 import React from 'react';
-import { useLocation } from 'react-router';
 import { useSelector, useDispatch } from 'react-redux';
 import { IoMdArrowRoundBack } from '@react-icons/all-files/io/IoMdArrowRoundBack';
-import { NavLink } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Header from './Header';
 import Footer from './Footer';
@@ -15,26 +14,29 @@ const DetailsPage = () => {
   if (covid19Data.length === 0) {
     dispatch(fetchDataApi());
   }
-  const data = useLocation();
-  const countryName = data.pathname.substring(1).replace('%20', ' ').replace('%20', ' ');
-  const countryData = covid19Data.filter((data) => data.Country.localeCompare(countryName) === 0);
+  const navigate = useNavigate();
+  const params = useParams();
+  const countryData = covid19Data.filter(
+    (data) => data.Country.localeCompare(params.Country) === 0,
+  );
   return (
     <>
-      <Header heading={countryName} />
+      <Header heading={params.Country} />
       {covid19Data.length === 0 && (
         <h1 className="wait-p">Please Wait !</h1>
       )}
       {
         covid19Data.length > 0 && (
         <main>
-          <NavLink to="/">
-            <IoMdArrowRoundBack className="back-icon" />
-          </NavLink>
+          <IoMdArrowRoundBack
+            className="back-icon"
+            onClick={() => navigate('/')}
+          />
           <div className="banner-div">
             <img src={Banner} alt="COVID19" className="img-banner" />
             <div className="banner-details">
               <h2 className="banner-h2">
-                {countryName}
+                {params.Country}
               </h2>
               <h3 className="banner-h3">{countryData[0].TotalConfirmed}</h3>
               <h4 className="banner-h4">{countryData[0].Date}</h4>
