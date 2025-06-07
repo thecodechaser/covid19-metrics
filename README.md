@@ -30,7 +30,7 @@
 
 ## Online live link
 
-[Visit project online](https://covid19-metrics-thecodechaser.netlify.app)
+[Visit project online](https://covid19-metrics.thecodechaser.com)
 
 ## Getting Started
 
